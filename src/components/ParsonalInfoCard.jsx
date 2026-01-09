@@ -1,7 +1,7 @@
 import Row from './Row'
 export default function PersonalInfoCard( {info}) {
-    return 
-    <div className="card infoCard">
+    return (
+         <div className="card infoCard">
         <h2 className="cardTitle">Parsonal Information</h2>
 
         <div className="rows">
@@ -12,4 +12,5 @@ export default function PersonalInfoCard( {info}) {
             }
         </div>
     </div>
+    )
 }
