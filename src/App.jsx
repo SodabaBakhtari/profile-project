@@ -1,7 +1,7 @@
 import './App.css'
 import ProfilePage from './components/ProfilePage'
 function App() {
-  const user1 = {
+  const user = {
     name: "Sodaba bakhtari",
     username: "@sodaba123",
     avatarImage: avatarImage,
