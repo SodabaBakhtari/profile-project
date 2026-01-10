@@ -11,4 +11,4 @@ export default function PersonalInfoCard( {info}) {
         </div>
     </div>
     )
-}
+} 

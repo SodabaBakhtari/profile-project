@@ -5,4 +5,4 @@ export default function Row({label, value}) {
             <span className="rowValue">{value}</span>
         </div>
     );
-}
+} 

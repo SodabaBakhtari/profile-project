@@ -13,4 +13,4 @@ export default function AccountDetailsCard ({details}){
             </div>
         </div>
     )
-}
+} 

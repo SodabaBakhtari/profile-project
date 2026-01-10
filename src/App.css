@@ -3,8 +3,9 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #0b1220;
+  background: #142341;
   color: #e5e7eb;
+  padding: 0 ;
 }
 
 /* Page */
@@ -18,7 +19,7 @@ body {
   margin: 0 auto;
 }
 
-/* Top header like screenshot */
+/* Top header like screenshot */ 
 .topHeader {
   background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
   border-radius: 20px;
@@ -150,12 +151,14 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
+  
 }
 
 .statTop {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 10px;
 }
 
 .statTitle {

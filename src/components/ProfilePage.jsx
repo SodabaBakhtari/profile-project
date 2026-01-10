@@ -1,17 +1,17 @@
 import TopHeader from "./TopHeader";
-import StatCard from "./statCard";
+import StatCard from "./StatCard";
 import PersonalInfoCard from "./PersonalInfoCard";
 import AccountDetailsCard from "./AccountDetailsCard";
 
 export default function ProfilePage({user}){
     return(
-      <div className="profile-page">
+      <div className="page">
         <div className="layout">
           <TopHeader 
             name={user.name} 
             username={user.username} 
             avatarImage={user.avatarImage}
-          />
+          /> 
         </div>
      
         <div className="statGrid">
@@ -41,3 +41,4 @@ export default function ProfilePage({user}){
       </div>
     )
 }
+     

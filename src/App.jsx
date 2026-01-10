@@ -1,5 +1,7 @@
 import './App.css';
 import ProfilePage from './components/ProfilePage';
+import avatarImage from './assets/avatar.jpg';
+
 function App() {
   const user = {
     name: "Sodaba bakhtari",
@@ -8,13 +10,13 @@ function App() {
     XP: 80,
     lastActive: "Dec 22 2025",
     streakDays: 2,
-    longStreake: 2,
+    longStreak: 2,
     recentBadgesText: "No badges earned yet.",
 
 
-    parsonalInfo: {
-      eamil: 's.bakhtari123@gmail.com',
-      gender: 'famale',
+    personalInfo: {
+      email: 's.bakhtari123@gmail.com',
+      gender: 'famale', 
       country: 'Afghanistan',
       "province of state": 'Kabul',
       "Date of birth": "4/10/2005",
@@ -23,7 +25,7 @@ function App() {
 
     accountDetails: {
       Role: "student",
-       Status: "Active",
+      Status: "Active",
       Verification: "Verified",
     }
   }

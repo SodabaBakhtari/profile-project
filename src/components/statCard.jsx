@@ -16,6 +16,6 @@ export default function statCard({title, bigValue, footerText, icon}){
             </p>
 
 
-        </div>
+        </div> 
     );
 }
