@@ -1,5 +1,5 @@
-import './App.css'
-import ProfilePage from './components/ProfilePage'
+import './App.css';
+import ProfilePage from './components/ProfilePage';
 function App() {
   const user = {
     name: "Sodaba bakhtari",
@@ -23,6 +23,8 @@ function App() {
 
     accountDetails: {
       Role: "student",
+       Status: "Active",
+      Verification: "Verified",
     }
   }
   return (

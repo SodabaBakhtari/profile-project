@@ -1,4 +1,4 @@
-export default function StatCard({title, bigValue, footerText, icon}){
+export default function statCard({title, bigValue, footerText, icon}){
     return(
         <div className="card statCard">
             <div className="statTop">
@@ -17,7 +17,5 @@ export default function StatCard({title, bigValue, footerText, icon}){
 
 
         </div>
-    )
-} {
-    
+    );
 }

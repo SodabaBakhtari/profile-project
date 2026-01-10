@@ -1,8 +1,8 @@
-export default function Row(lable, value) {
+export default function Row({label, value}) {
     return (
         <div className="row">
-            <span className="rowLable">{lable}</span>
+            <span className="rowLabel">{label}</span>
             <span className="rowValue">{value}</span>
         </div>
-    )
+    );
 }
